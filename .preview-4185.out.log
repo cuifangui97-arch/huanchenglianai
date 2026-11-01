@@ -1,0 +1,163 @@
+
+> foundphone-studio@0.8.0 dev
+> npm run story:generate && npm run story:build && vite --config vite.runtime.config.ts --configLoader runner --host 127.0.0.1 --port 4185
+
+
+> foundphone-studio@0.8.0 story:generate
+> node scripts/build-top-story.mjs
+
+Generated 5895 story records, 150 cross-app events, 5 offline season paths.
+
+> foundphone-studio@0.8.0 story:build
+> node scripts/story.mjs build
+
+stories/template/story.json: build 通过 (12 Apps, 5895 records, 150 events, 5 paths)
+
+  VITE v7.3.7  ready in 365 ms
+
+  ➜  Local:   http://127.0.0.1:4185/
+  ➜  press h + enter to show help
+08:21:28 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+08:21:33 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+08:22:01 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+08:33:32 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+08:33:42 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+08:33:51 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+08:33:58 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+08:34:01 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+08:34:05 [vite] (client) hmr update /src/skins/day-one.css
+08:34:14 [vite] (client) hmr update /src/skins/day-one.css
+08:44:21 [vite] (client) hmr update /src/skins/SceneChatStream.tsx
+08:44:24 [vite] (client) hmr update /src/skins/SceneChatStream.tsx
+08:44:27 [vite] (client) hmr update /src/skins/day-one.css
+08:44:42 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+08:45:00 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+08:45:17 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+08:45:29 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+08:46:45 [vite] (client) hmr update /src/skins/SceneChatStream.tsx
+08:48:19 [vite] (client) hmr update /src/skins/SceneChatStream.tsx
+08:52:58 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+08:53:13 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+08:53:25 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+08:53:36 [vite] (client) hmr update /src/skins/SceneChatStream.tsx
+08:53:38 [vite] (client) hmr update /src/skins/SceneChatStream.tsx
+08:53:42 [vite] (client) hmr update /src/skins/day-one.css
+08:54:25 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+08:55:15 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+08:57:14 [vite] (client) page reload tests/fixtures/anonymous-chat.html
+09:03:09 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx, /src/skins/EpisodeTwoThree.tsx, /src/skins/DayOneExperience.tsx, /src/skins/SceneChatStream.tsx
+09:03:28 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:03:30 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:03:34 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:03:43 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:03:49 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:03:51 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:04:02 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:04:21 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:05:04 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:06:31 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:06:37 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx, /src/skins/EpisodeTwoThree.tsx, /src/skins/DayOneExperience.tsx, /src/skins/SceneChatStream.tsx
+09:06:42 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:06:49 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:06:51 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:06:55 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:06:59 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:15:51 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:15:59 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:16:03 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:16:08 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:16:22 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx, /src/skins/EpisodeTwoThree.tsx, /src/skins/DayOneExperience.tsx, /src/skins/SceneChatStream.tsx
+09:16:26 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:16:35 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:16:41 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:16:43 [vite] (client) hmr update /src/skins/DirectorApps.tsx, /src/skins/DayOneExperience.tsx
+09:16:51 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:17:32 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:17:39 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:17:48 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:17:53 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:17:59 [vite] (client) hmr update /src/skins/DirectorApps.tsx, /src/skins/DayOneExperience.tsx
+09:18:10 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:18:18 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:18:30 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:18:35 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:18:45 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:19:02 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:19:31 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:19:34 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:20:23 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:20:23 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:22:06 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:24:16 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:24:24 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:24:48 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:24:56 [vite] (client) hmr update /src/Phone.tsx
+09:25:00 [vite] (client) hmr update /src/Phone.tsx
+09:25:00 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:25:09 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:25:30 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:25:40 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:26:11 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:26:51 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:26:55 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:27:07 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:27:24 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:27:29 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:27:35 [vite] (client) hmr update /src/skins/director-apps.css
+09:27:53 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:28:21 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:28:27 [vite] (client) hmr update /src/Phone.tsx
+09:28:30 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:28:36 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:28:49 [vite] (client) hmr update /src/Phone.tsx
+09:29:05 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:29:14 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:29:17 [vite] (client) hmr update /src/Phone.tsx
+09:29:21 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:30:07 [vite] (client) hmr update /src/Phone.tsx
+09:30:27 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:30:33 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:31:07 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:31:34 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:31:42 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:31:46 [vite] (client) hmr update /src/Phone.tsx
+09:33:10 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:33:13 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:33:29 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:33:48 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:35:05 [vite] (client) hmr update /src/Phone.tsx, /src/skins/DirectorApps.tsx
+09:38:08 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:39:30 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:43:23 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:43:34 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:43:45 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:44:03 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:44:11 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:44:29 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:45:13 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:45:24 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:45:43 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:45:59 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:46:15 [vite] (client) hmr update /src/skins/DirectorApps.tsx
+09:47:14 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:50:52 [vite] (client) page reload tests/fixtures/director-cut.html
+09:52:20 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:52:31 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:54:04 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+09:54:13 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:55:05 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:55:33 [vite] (client) hmr update /src/skins/DayOneExperience.tsx
+09:55:37 [vite] (client) hmr update /src/skins/EpisodeTwoThree.tsx
+09:55:41 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:05:57 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:06:20 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:06:31 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:06:50 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:07:14 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:07:50 [vite] (client) hmr update /src/skins/DirectorApps.tsx, /src/skins/DayOneExperience.tsx
+10:07:56 [vite] (client) hmr update /src/skins/DirectorApps.tsx, /src/skins/DayOneExperience.tsx
+10:09:10 [vite] (client) page reload tests/fixtures/ep04-letters.html
+10:10:23 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:10:34 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:11:43 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
+10:11:50 [vite] (client) hmr update /src/skins/EpisodeFourteen.tsx
